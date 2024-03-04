@@ -1,0 +1,45 @@
+*, *::after, *::backdrop {
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.link__page {
+    color: #4E75FF;
+    background-color: #2e2f4232;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    transition: all .3s ease;
+}
+
+.link__page:hover {
+    background-color: #2e2f42;
+    color: #fff;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5em;
+}
+
+.gallery-item {
+  list-style: none;
+}
+
+.gallery-image {
+  max-width: 360px;
+  max-height: 200px;
+}
+
+.simple-lightbox {
+  background-color: #2e2f42bd;
+}
